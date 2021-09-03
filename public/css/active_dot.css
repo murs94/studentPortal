@@ -1,0 +1,40 @@
+.dot {
+    height: 10.5px;
+    width: 10.5px;
+    border-radius: 50%;
+    background: #06D6A0;
+}
+.dot:before {
+    content:"";
+    height: 10.5px;
+    width: 10.5px;
+    border-radius: 50%;
+    background: #06D6A0;
+    display:block;
+    animation: pulse2 2s ease 0s infinite;
+}
+
+@keyframes pulse2 {
+    0% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    30% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(2.5);
+    }
+}
+
+.dot2 {
+    height: 10.5px;
+    width: 10.5px;
+    border-radius: 50%;
+    background: red;
+}
+
+
+
